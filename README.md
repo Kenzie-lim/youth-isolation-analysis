@@ -14,7 +14,7 @@ This project analyzed the **Seoul Metropolitan Government's Isolated/Reclusive Y
 1. **Built classification models** on survey data (5,513 respondents × 250 features) to identify isolated youth
 2. **Reduced 382 dummy features → 216 (top 90% importance) → 20 key predictive characteristics** across 6 categories (demographic, emotional, economic, behavioral, health, relational)
 3. **Analyzed 5,830 YouTube comments** on isolation-related videos using text classification to find real isolated youth in the wild
-4. **Proposed "outreach-first" service design** — using everyday data to find isolated youth before they ask for help, in collaboration with private platforms (Karrot, Naver)
+4. **Text mining pipeline** (KoBERT sentiment analysis, TF-IDF, KoNLPy/Okt preprocessing)
 
 ## Key Findings
 
@@ -59,7 +59,6 @@ This was a **7-person team project** (Team BlueYouth). This repository contains 
 ### What I Did NOT Do (Other Team Members' Work)
 
 - ML model implementation (Naive Bayes, XGBoost, Random Forest, HyperOpt tuning)
-- Text mining pipeline (KoBERT sentiment analysis, TF-IDF, KoNLPy/Okt preprocessing)
 - YouTube comment crawling and text preprocessing code
 - Hyperparameter tuning and model evaluation
 
